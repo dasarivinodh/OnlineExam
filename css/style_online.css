@@ -1,0 +1,59 @@
+body{
+	font-family: 'Electrolize', Arial, sans-serif;
+	font-size: 15px;
+	}
+	
+ol,ul {list-style:none;}
+
+a{text-decoration: none;}
+
+.online-top{
+	line-height: 100px;
+	font-size: 11px;
+	background:#87cfe6;
+	z-index: 9999;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100px;
+	box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
+	}
+	
+.online-top span.right{float: right;}
+
+#online-demos{
+    position: fixed;
+	z-index: 3;
+	top: 120px;
+	right: 20px;
+	color : #87cfe6;
+}
+
+#online-demos a{
+    display: inline-block;
+	font-size: 12px;
+	width: 40px;
+	height: 24px;
+	color: #000;
+	line-height: 24px;
+	text-align: center;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	background: #87cfe6;
+	margin-top:2.5px;
+	text-transform: uppercase;
+        border:2px groove black;
+	border-radius:5px;
+}
+
+
+#online-demos a:hover{
+	background: #ddd;
+	color: #000;
+}
+
+#online-demos a.current-demo,#online-demos a.current-demo:hover{
+	background: #000;
+	color: #fff;
+	cursor: default;
+}

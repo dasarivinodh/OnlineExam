@@ -1,0 +1,1 @@
+message=Test%20sms%20from%20ANYVARIABLE1.%20Thanks%20for%20choosing%20our%20service%20-%20smsc.biz";

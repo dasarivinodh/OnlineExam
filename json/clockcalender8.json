@@ -1,0 +1,51 @@
+﻿{
+    "clock8": [
+        {
+            "question": "A clock is set right at 8 a.m. The clock gains 10 minutes in 24 hours will be the true time when the clock indicates 1 p.m. on the following day?",
+            "figure": "no image",
+            "option1": "45 min.past 12",
+            "option2": "48 min.past 12",
+            "option3": "40 min.past12",
+            "option4": "54 min.past12",
+            "ans" : "48 min.past 12"
+        },
+        {
+            "question": "The angle between the minute hand and the hour hand of a clock when the time is 4.20,is: ",
+            "figure": "no image",
+            "option1": "0º",
+            "option2": "10º",
+            "option3": "5º",
+            "option4": "20º",
+            "ans" : "10º"
+        },
+        {
+            "question": "At what angle the hands of a clock are inclined at 15minutes past 5?",
+            "figure": "no image",
+            "option1": "581/2º",
+            "option2": "64º",
+            "option3": "671/2º",
+            "option4": "721/2º",
+            "ans" : "671/2º"
+        },
+        {
+            "question": "At 3.40,the hour hand and the minute hand of a clock for man angle of: ",
+            "figure": "no image",
+            "option1": "120º",
+            "option2": "125º",
+            "option3": "130º",
+            "option4": "135º",
+            "ans" : "130º"
+
+        },
+        {
+            "question": "How many times are the hands of a clock at right angle in a day?",
+            "figure": "no image",
+            "option1": "22",
+            "option2": "24",
+            "option3": "44",
+            "option4": "48",
+             "ans" : "44"
+
+        }
+    ]
+}

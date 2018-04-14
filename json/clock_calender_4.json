@@ -1,0 +1,10 @@
+{ 
+  "clock_calendar_4" : [
+
+	{ "question" : "The last day of a century cannot be" , "figure" :"no image", "option1":monday","option2":"wednesday","option3":"tuesday","option4":"friday" },
+	 { "question" : "On 8th Feb, 2005 it was Tuesday. What was the day of the week on 8th Feb, 2004?", "figure":"no image","option1":"tuesday", "option2":"monday","option3":"sunday","option4":"wednesday"},
+     { "question" : "The calendar for the year 2007 will be the same for the year","figure:"no image","option1":"2014","option2":"2016","option3":"2017","option4":"2018"},
+     { "question" : "Which of the following is not a leap year?","figure":"no image","option1":"700","option2":"800","option3":"1200","option4":"2000"},
+     { "question" : "On 8th Dec, 2007 Saturday falls. What day of the week was it on 8th Dec, 2006?","figure":"no image","option1":"sunday","option2":"thrusday","option3":"tuesday","option4":"friday"},
+	 ]
+	 }

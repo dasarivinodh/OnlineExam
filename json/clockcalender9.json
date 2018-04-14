@@ -1,0 +1,49 @@
+﻿{
+    "clock9": [
+        {
+            "question": "The angle between the minute hand and the hour hand of a clock when the time is 8.30, is:",
+            "figure": "no image",
+            "option1": "80º",
+            "option2": "75º",
+            "option3": "60º",
+            "option4": "105º",
+             "ans" : "75º"
+        },
+        {
+            "question": "How many times in a day, are the hands of a clock in straight line but opposite in direction?",
+            "figure": "no image",
+            "option1": "20",
+            "option2": "22",
+            "option3": "24",
+            "option4": "48",
+            "ans" : "22"
+        },
+        {
+            "question": "At what time between 4 and 5 o'clock will the hands of a watch point in opposite directions?",
+            "figure": "no image",
+            "option1": "45 min. past 4",
+            "option2": "40 min. past 4",
+            "option3": "50 4/11min. past 4",
+            "option4": "54 6/11 min past4",
+            "ans" : "54 6/11 min past4"
+        },
+        {
+            "question": "At what time between 9 and 10 o'clock will the hands of a watch be together?",
+            "figure": "no image",
+            "option1": "45 min. past 9",
+            "option2": "50 min. past 9",
+            "option3": "49 1/11 min.past 9",
+            "option4": "48 2/11 min. past 9",
+            "ans" : "49 1/11 min.past 9"
+        },
+        {
+            "question": "At what time, in minutes, between 3 o'clock and 4 o'clock, both the needles will coincide each other?",
+            "figure": "no image",
+            "option1": "5 1/11",
+            "option2": "12 4/11",
+            "option3": "13 4/11",
+            "option4": "16 4/11",
+            "ans" : "16 4/11"
+        }
+    ]
+}

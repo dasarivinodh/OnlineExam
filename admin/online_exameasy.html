@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<title>PVP Siddhartha | Online</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="author" content="" />
+        <link href="vishnu_style_latest.css" rel="stylesheet" type="text/css">
+        <link href="vinodh_style.css" rel="stylesheet" type="text/css">
+		<script src="jquery-1.js"></script>
+		
+		<script>
+		    var cans=new Array();
+			var uans=new Array();
+			var no_ans=0,no_rev=0,no_notans=40;
+			   function examstart(){
+			         var v=document.getElementById("que_box");
+					 var w=document.getElementById("exambutton");
+					     w.style.display="none";
+			             v.style.display="block";			   
+			   }
+			
+  
+               function correctans(){
+			       alert("from function correctans");
+			      for(i=0;i<12;i++){
+				       alert(cans[i]);
+			      }	   
+			  }  
+			  
+			  
+			  function userans(){
+			      alert("from function userans");
+			      for(i=0;i<12;i++){
+				       alert(uans[i]);
+			       }	  
+			  
+			  }
+		</script>
+        <script src="first_question.js"></script>
+		<script src="second_question.js"></script>
+		<script src="third_question.js"></script>
+		<script src="fourth_question.js"></script>
+		<script src="fifth_question.js"></script>
+		<script src="sixth_question.js"></script>
+		<script src="seventh_question.js"></script>
+		<script src="eighth_question.js"></script>
+		<script src="ninth_question.js"></script>
+		<script src="tenth_question.js"></script>
+		<script src="eleventh_question.js"></script>
+		<script src="twelth_question.js"></script>
+		<script src="selecting_option.js"></script>
+		<script src="deselecting_option.js"></script>
+		<script src="marking_option_for_review.js"></script> 
+		<script src="submittingexam.js"></script>
+		
+		
+	</head>
+	<body>
+		<!-- online top bar -->
+	 	<div class="online-top">
+			<span class="right">
+			</span>
+			<div class="clr"></div>
+		</div> 
+		<!--/ online top bar -->
+		<!-- MY CODE GOES HERE -->
+		
+<input type="button" id="exambutton" style="margin-top:105px;display:block;" value="startexam" onclick="examstart()">
+       
+		<div id="que_box" style="padding-top:30px;display:none;">
+		  <!--queone-->
+          <div class="que_container">
+		    <pre id="zero"> </pre>
+            <span class="que" >1</span><br>
+            <img class="fig" src="" style="visibility:hidden;"  height="100px" width="100px"></img>
+            <input type="radio" name="1000" value="" onclick="optionselected(name)"><span  class="opt_one">h</span></input>
+			<input type="radio" name="1000" value="" onclick="optionselected(name)"><span  class="opt_two">f</span></input>
+			<input type="radio" name="1000" value="" onclick="optionselected(name)"><span class="opt_three">opt_three</span></input>
+			<input type="radio" name="1000" value="" onclick="optionselected(name)"><span  class="opt_four">sd</span></input><br>
+			<input style="float:right;margin-right:30px;" type="button" value="clear" onclick="optiondeselected(1000)">
+			<input style="float:right;" type="button" value="mark-for-review" onclick="markedforreview(1000)"><br>
+          </div>
+		  <br><hr><br>
+		  <!--que two-->
+		  <div class="que_container">
+		    <pre id="one"> </pre>
+            <span class="que" id="one"></span><br>
+            <img class="fig" src="" style="visibility:hidden;"  height="100px" width="100px"></img>
+            <input type="radio" name="1001" value="" onclick="optionselected(name)"><span  class="opt_one">h</span></input>
+			<input type="radio" name="1001" value="" onclick="optionselected(name)"><span  class="opt_two">f</span></input>
+			<input type="radio" name="1001" value="" onclick="optionselected(name)"><span class="opt_three">s</span></input>
+			<input type="radio" name="1001" value="" onclick="optionselected(name)"><span  class="opt_four">sd</span></input><br>
+			<input style="float:right;margin-right:30px;" type="button" value="clear" onclick="optiondeselected(1001)">
+			<input style="float:right;" type="button" value="mark-for-review" onclick="markedforreview(1001)"><br>
+          </div>
+		  <br><hr><br>
+          <!--que three-->
+		  <div class="que_container">
+		    <pre id="two"> </pre>
+            <span class="que" ></span><br>
+            <img class="fig" src="" style="visibility:hidden;"  height="100px" width="100px"></img>
+            <input type="radio" name="1002" value="" onclick="optionselected(name)"><span  class="opt_one">h</span></input>
+			<input type="radio" name="1002" value="" onclick="optionselected(name)"><span  class="opt_two">f</span></input>
+			<input type="radio" name="1002" value="" onclick="optionselected(name)"><span class="opt_three">s</span></input>
+			<input type="radio" name="1002" value="" onclick="optionselected(name)"><span  class="opt_four">sd</span></input><br>
+			<input style="float:right;margin-right:30px;" type="button" value="clear" onclick="optiondeselected(1002)">
+			<input style="float:right;" type="button" value="mark-for-review" onclick="markedforreview(1002)"><br>
+          </div>
+		  <br><hr><br>
+		  <!--que four-->
+		  <div class="que_container">
+		    <pre id="three"> </pre>
+            <span class="que" ></span><br>
+            <img class="fig" src="" style="visibility:hidden;"  height="100px" width="100px"></img>
+            <input type="radio" name="1003" value="" onclick="optionselected(name)"><span  class="opt_one">h</span></input>
+			<input type="radio" name="1003" value="" onclick="optionselected(name)"><span  class="opt_two">f</span></input>
+			<input type="radio" name="1003" value="" onclick="optionselected(name)"><span class="opt_three">s</span></input>
+			<input type="radio" name="1003" value="" onclick="optionselected(name)"><span  class="opt_four">sd</span></input><br>
+			<input style="float:right;margin-right:30px;" type="button" value="clear" onclick="optiondeselected(1003)">
+			<input style="float:right;" type="button" value="mark-for-review" onclick="markedforreview(1003)"><br>
+          </div>
+		  <br><hr><br>
+          <!--que five-->
+		  <div class="que_container">
+		    <pre id="four"> </pre>		    
+            <span class="que" ></span><br>
+            <img class="fig" src="" style="visibility:hidden;"  height="100px" width="100px"></img>
+            <input type="radio" name="1004" value="" onclick="optionselected(name)"><span  class="opt_one">h</span></input>
+			<input type="radio" name="1004" value="" onclick="optionselected(name)"><span  class="opt_two">f</span></input>
+			<input type="radio" name="1004" value="" onclick="optionselected(name)"><span class="opt_three">s</span></input>
+			<input type="radio" name="1004" value="" onclick="optionselected(name)"><span  class="opt_four">sd</span></input><br>
+			<input style="float:right;margin-right:30px;" type="button" value="clear" onclick="optiondeselected(1004)">
+			<input style="float:right;" type="button" value="mark-for-review" onclick="markedforreview(1004)"><br>
+          </div>
+		  <br><hr><br>
+		  <!--que six-->
+		  <div class="que_container"> 
+		   <pre id="five"> </pre>				    
+            <span class="que" ></span><br>
+            <img class="fig" src="" style="visibility:hidden;"  height="100px" width="100px"></img>
+            <input type="radio" name="1005" value="" onclick="optionselected(name)"><span  class="opt_one">h</span></input>
+			<input type="radio" name="1005" value="" onclick="optionselected(name)"><span  class="opt_two">f</span></input>
+			<input type="radio" name="1005" value="" onclick="optionselected(name)"><span class="opt_three">s</span></input>
+			<input type="radio" name="1005" value="" onclick="optionselected(name)"><span  class="opt_four">sd</span></input><br>
+			<input style="float:right;margin-right:30px;" type="button" value="clear" onclick="optiondeselected(1005)">
+			<input style="float:right;" type="button" value="mark-for-review" onclick="markedforreview(1005)"><br>
+          </div>
+		  <br><hr><br>
+		  <!--que seven-->
+		  <div class="que_container">
+		   <pre id="six"> </pre>
+            <span class="que"></span><br>
+            <img class="fig" src="" style="visibility:hidden;"  height="100px" width="100px"></img>
+            <input type="radio" name="1006" value="" onclick="optionselected(name)"><span  class="opt_one">h</span></input>
+			<input type="radio" name="1006" value="" onclick="optionselected(name)"><span  class="opt_two">f</span></input>
+			<input type="radio" name="1006" value="" onclick="optionselected(name)"><span class="opt_three">s</span></input>
+			<input type="radio" name="1006" value="" onclick="optionselected(name)"><span  class="opt_four">sd</span></input><br>
+			<input style="float:right;margin-right:30px;" type="button" value="clear" onclick="optiondeselected(1006)">
+			<input style="float:right;" type="button" value="mark-for-review" onclick="markedforreview(1006)"><br>
+          </div>
+		  <br><hr><br>
+		  <!--que eight-->
+		  <div class="que_container">
+		    <pre id="seven"> </pre>
+            <span class="que"></span><br>
+            <img class="fig" src="" style="visibility:hidden;"  height="100px" width="100px"></img>
+            <input type="radio" name="1007" value="" onclick="optionselected(name)"><span  class="opt_one">h</span></input>
+			<input type="radio" name="1007" value="" onclick="optionselected(name)"><span  class="opt_two">f</span></input>
+			<input type="radio" name="1007" value="" onclick="optionselected(name)"><span class="opt_three">s</span></input>
+			<input type="radio" name="1007" value="" onclick="optionselected(name)"><span  class="opt_four">sd</span></input><br>
+			<input style="float:right;margin-right:30px;" type="button" value="clear" onclick="optiondeselected(1007)">
+			<input style="float:right;" type="button" value="mark-for-review" onclick="markedforreview(1007)"><br>
+          </div>
+		  <br><hr><br>
+		  <!--que nine-->
+		  <div class="que_container">
+		   <pre id="eight"> </pre>
+            <span class="que"></span><br>
+            <img class="fig" src="" style="visibility:hidden;"  height="100px" width="100px"></img>
+            <input type="radio" name="1008" value="" onclick="optionselected(name)"><span  class="opt_one">h</span></input>
+			<input type="radio" name="1008" value="" onclick="optionselected(name)"><span  class="opt_two">f</span></input>
+			<input type="radio" name="1008" value="" onclick="optionselected(name)"><span class="opt_three">s</span></input>
+			<input type="radio" name="1008" value="" onclick="optionselected(name)"><span  class="opt_four">sd</span></input><br>
+			<input style="float:right;margin-right:30px;" type="button" value="clear" onclick="optiondeselected(1008)">
+			<input style="float:right;" type="button" value="mark-for-review" onclick="markedforreview(1008)"><br>
+			
+          </div>
+		  <br><hr><br>
+		  <!--que ten-->
+		  <div class="que_container">
+		    <pre id="nine"> </pre>
+            <span class="que"></span><br>
+            <img class="fig" src="" style="visibility:hidden;"  height="100px" width="100px"></img>
+            <input type="radio" name="1009" value="" onclick="optionselected(name)"><span  class="opt_one">h</span></input>
+			<input type="radio" name="1009" value="" onclick="optionselected(name)"><span  class="opt_two">f</span></input>
+			<input type="radio" name="1009" value="" onclick="optionselected(name)"><span class="opt_three">s</span></input>
+			<input type="radio" name="1009" value="" onclick="optionselected(name)"><span  class="opt_four">sd</span></input><br>
+			<input style="float:right;margin-right:30px;" type="button" value="clear" onclick="optiondeselected(1009)">
+			<input style="float:right;" type="button" value="mark-for-review" onclick="markedforreview(1009)"><br>
+          </div>
+		  <br><hr><br>
+		  <!--que eleven-->
+		  <div class="que_container">
+		    <pre id="ten"> </pre>
+            <span class="que"></span><br>
+            <img class="fig" src="" style="visibility:hidden;"  height="100px" width="100px"></img>
+            <input type="radio" name="1010" value="" onclick="optionselected(name)"><span  class="opt_one">h</span></input>
+			<input type="radio" name="1010" value="" onclick="optionselected(name)"><span  class="opt_two">f</span></input>
+			<input type="radio" name="1010" value="" onclick="optionselected(name)"><span class="opt_three">s</span></input>
+			<input type="radio" name="1010" value="" onclick="optionselected(name)"><span  class="opt_four">sd</span></input><br>
+			<input style="float:right;margin-right:30px;" type="button" value="clear" onclick="optiondeselected(1010)">
+			<input style="float:right;" type="button" value="mark-for-review" onclick="markedforreview(1010)"><br>
+          </div>
+		  <br><hr><br>
+		  <!--que twelve-->
+		  <div class="que_container">
+		     <pre id="ten"> </pre>
+            <span class="que"></span><br>
+            <img class="fig" src="" style="visibility:hidden;"  height="100px" width="100px"></img>
+            <input type="radio" name="1011" value="" onclick="optionselected(name)"><span  class="opt_one">h</span></input>
+			<input type="radio" name="1011" value="" onclick="optionselected(name)"><span  class="opt_two">f</span></input>
+			<input type="radio" name="1011" value="" onclick="optionselected(name)"><span class="opt_three">opt_four</span></input>
+			<input type="radio" name="1011" value="" onclick="optionselected(name)"><span  class="opt_four">sd</span></input><br>
+			<input style="float:right;margin-right:30px;" type="button" value="clear" onclick="optiondeselected(1011)">
+			<input style="float:right;" type="button" value="mark-for-review" onclick="markedforreview(1011)"><br>
+          </div>
+		  <br><hr><br>
+</div>
+
+		
+		<!-- Header with Navigation -->
+		<div id="header">
+			<!-- Demo Nav -->
+				<ul >
+			<nav id="online-demos">
+				<li>
+				<a href="#zero" id="1500">1</a>
+				<a href="#one" id="1501">2</a>
+				<a href="#two" id="1502">3</a>
+				<a href="#three" id="1503">4</a>
+				<a href="#four" id="1504">5</a>
+				</li>
+				<li>
+				<a href="#five" id="1505">6</a>
+				<a href="#six" id="1506">7</a>
+				<a href="#seven" id="1507">8</a>
+				<a href="#eight" id="1508">9</a>
+				<a href="#nine" id="1509">10</a>
+				</li>
+				<li>
+				<a href="#ten" id="1510">11</a>
+				<a href="#eleven" id="1511">12</a>
+				<a href="#twelve" id="1512">13</a>
+				<a href="#thirteen" id="1513">14</a>
+				<a href="#fourteen" id="1514">15</a>
+				</li>
+				<li>
+				<a href="#fifteen" id="1515">16</a>
+				<a href="#sixteen" id="1516">17</a>
+				<a href="#seventeen" id="1517">18</a>
+				<a href="#eighteen" id="1518">19</a>
+				<a href="#nineteen" id="1519">20</a>
+				</li>
+				<li>
+				<a href="#twenty" id="1520">21</a>
+				<a href="#twentyone" id="1521">22</a>
+				<a href="#twentytwo" id="1522">23</a>
+				<a href="#twentythree" id="1523">24</a>
+				<a href="#twentyfour" id="1524">25</a>
+				</li>
+				<li>
+				<a href="#twentyfive" id="1525">26</a>
+				<a href="#twentysix" id="1526">27</a>
+				<a href="#twentyseven" id="1527">28</a>
+				<a href="#twentyeight" id="1528">29</a>
+				<a href="#twentynine" id="1529">30</a>
+				</li>
+				<li>
+				<a href="#thirty" id="1530">31</a>
+				<a href="#thirtyone" id="1531">32</a>
+				<a href="#thirtytwo" id="1532">33</a>
+				<a href="#thirtythree" id="1533">34</a>
+				<a href="#thirtyfour" id="1534">35</a>
+				</li>
+				<li>
+				<a href="#thirtyfive" id="1535">36</a>
+				<a href="#thirtysix" id="1536">37</a>
+				<a href="#thirtyseven" id="1537">38</a>
+				<a href="#thirtyeight" id="1538">39</a>
+				<a href="#thirtynine" id="1539">40</a>
+				</li>
+				
+				
+				<li><br></li>
+				<li><br></li>
+				<li><span style="color:black;">Answered:</span><img style="padding-left:55px" src="palegreen2.jpg"></li><br>
+				<li><span style="color:black;">Marked-for-review:</span><img style="padding-left:5px" src="violet2.jpg"></li><br>
+                <li><span style="color:black;">Not-answered:</span><img style="padding-left:30px" src="lightblue2.jpg"></li>
+				
+				
+				<li><br></li>
+				<li><br></li>				
+				<li style="color:black;"><span >total no of questions answered:</span><span id="answered">0</span></li>
+				<li style="color:black;"><span>total no of questions marked for review:<span><span id="review">0</span></li>
+				<li style="color:black;"><span >total no of questions not answered:</span><span id="notanswered">40</span></li>
+				
+				
+				<li><br></li>
+				<li><br></li>				
+				<li><input type="button" value="submit" onclick="examsubmitted()"></input><li>
+				<li><input type="button" value="correct-ans" onclick="correctans()"></input><li>				
+				<li><input type="button" value="user-ans" onclick="userans()"></input><li>
+			</nav>
+			   
+		   </ul>   
+		       	   
+		   
+		</div>
+		
+	</body>
+</html>

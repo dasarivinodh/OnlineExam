@@ -1,0 +1,49 @@
+﻿{
+    "clock6": [
+        {
+            "question": "Prove that the calendar for the year 2008 will serve for the year 20ll",
+            "figure": "no image",
+            "option1": "2010",
+            "option2": "2011",
+            "option3": "2014",
+            "option4": "2015",
+             "ans" : "2014"
+        },
+        {
+            "question": "Prove that any date in March of a year is the same day of the week corresponding date in November that year ",
+            "figure": "no image",
+            "option1": "same day",
+            "option2": "not same day",
+            "option3": "nexr day",
+            "option4": "day by day",
+            "ans" : "same day"
+        },
+        {
+            "question": "Find the angle between the hour hand and the minute hand of a clock when 3.25.",
+            "figure": "no image",
+            "option1": "32º",
+            "option2": "47*1/2º",
+            "option3": "49*1/2º",
+            "option4": "37º",
+             "ans" : "47*1/2º"
+        },
+        {
+            "question": "At what time between 2 and 3 o'clock will the hands of a clock be together?",
+            "figure": "no image",
+            "option1": "45 min. past 2",
+            "option2": "40 min. past 2",
+            "option3": "120*1/11min.past 2",
+            "option4": "54*6/11 min.past 2",
+             "ans" : "40 min. past 2"
+        },
+        {
+            "question": "At what time between 4 and 5 o'clock will the hands of a clock be at right angle?",
+            "figure": "no image",
+            "option1": "45 min. past 4",
+            "option2": "40 min. past 4",
+            "option3": "40*1/11min.past 4",
+            "option4": "54*1/11 min.past 4",
+             "ans" : "40*1/11min.past 4"
+        }
+    ]
+}

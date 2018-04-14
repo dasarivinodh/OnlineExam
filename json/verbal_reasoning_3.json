@@ -1,0 +1,14 @@
+{
+ "verbal_reasoning_3": [
+ {"questions":"27, 24, 30, 27, 33,______","figure:"no image","option1":"48","option2":"27","option3":"30","option4":"24"},
+ 
+ {"questions":"4, 10, 22, 46,_______","figure:"no image","option1":"56","option2":"66","option3":"76","option4":"94"},
+ 
+ {"questions":"4, 1, -8,_______,-20, 29, -32, 43","figure:"no image","option1":"15","option2":"16","option3":"17","option4":"18"},
+ 
+ {"questions":"2, -2, 7, 3, 17,_______,32, 13","figure:"no image","option1":"70","option2":"10","option3":"9","option4":"8"},
+ 
+ {"questions":"9, 15, 23, 33,_______","figure:"no image","option1":"44","option2":"36","option3":"38","option4":"45"},
+ 
+ ]
+} 

@@ -1,0 +1,49 @@
+{
+    "verbal2": [
+        {
+            "question": "Find The ODD One Out ?",
+            "figure": "http://localhost/start/img/reasn.jpg",
+            "option1": "a",
+            "option2": "b",
+            "option3": "c",
+            "option4": "d",
+            "ans": "c"
+        },
+        {
+            "question": "8,10,14,18,_______,34,50,66",
+            "figure": "no image",
+            "option1": "28",
+            "option2": "27",
+            "option3": "26",
+            "option4": "25",
+            "ans": "26"
+        },
+        {
+            "question": "29,36,44,53,_______",
+            "figure": "no image",
+            "option1": "55",
+            "option2": "63",
+            "option3": "35",
+            "option4": "39",
+            "ans": "63"
+        },
+        {
+            "question": "10,22,27,_______,44,56,61",
+            "figure": "no image",
+            "option1": "32",
+            "option2": "39",
+            "option3": "40",
+            "option4": "42",
+            "ans": "39"
+        },
+        {
+            "question": "2,10,60,420,3360,_________",
+            "figure": "no image",
+            "option1": "30240",
+            "option2": "27840",
+            "option3": "25140",
+            "option4": "222240",
+            "ans": "30240"
+        }
+    ]
+}

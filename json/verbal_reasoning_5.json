@@ -1,0 +1,14 @@
+{
+ "verbal_reasoning_5": [
+ {"questions":"J,L,N,P,R,T,________","figure:"no image","option1":"V","option2":"X","option3":"Y","option4":"Z"},
+ 
+ {"questions":"C,F,I,L,O,R,_________","figure:"no image","option1":"V","option2":"U","option3":"W","option4":"X"},
+ 
+ {"questions":"B,F,J,N,R,V,_________","figure:"no image","option1":"X","option2":"Y","option3":"Z","option4":"C"},
+ 
+ {"questions":"E,J,O,T,Y,D,_________","figure:"no image","option1":"J","option2":"K","option3":"I","option4":"F"},
+ 
+ {"questions":"BHL, DJN, FLP, ___________","figure:"no image","option1":"MP","option2":"MN","option3":"MO","option4":"MQ"},
+ 
+ ]
+} 

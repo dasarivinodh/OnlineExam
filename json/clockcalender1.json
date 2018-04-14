@@ -1,0 +1,49 @@
+{
+    "clock1": [
+        {
+            "question":"It was Sunday on Jan 1, 2006. What was the day of the week Jan 1, 2010? ",
+            "figure":"no image",
+            "option1":"Sunday",
+            "option2":"Saturday",
+            "option3":"friday",
+            "option4":"Wednesday",
+            "ans":"friday"
+        },
+        {
+            "question":"What was the day of the week on 28th May, 2006?",
+            "figure":"no image",
+            "option1":"Thursday",
+            "option2":"Friday",
+            "option3":"Saturday",
+            "option4":"Sunday",
+            "ans":"sunday"
+        },
+        {
+            "question": "What was the day of the week on 17th June, 1998?",
+            "figure":"no image",
+            "option1":"Monday ",
+            "option2":"Tuesday",
+            "option3":"Wednesday",
+            "option4":"Thursday",
+            "ans":"wednesday"
+        },
+        {
+            "question":"What will be the day of the week 15th August, 2010? ",
+            "figure":"no image",
+            "option1":"Sunday",
+            "option2":"Monday",
+            "option3":"Tuesday",
+            "option4":"Friday",
+            "ans":"sunday"
+        },
+        {
+            "question":"Today is Monday. After 61 days, it will be:",
+            "figure":"no image",
+            "option1":"Wednesday",
+            "option2":"Saturday",
+            "option3":"Tuesday",
+            "option4":"Thursday",
+            "ans":"saturday"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "clock7": [
+        {
+            "question": "Find at what time between 8 and 9 o'clock will the hands of a clock being the same straight line but not together.",
+            "figure": "no image",
+            "option1": "45 min",
+            "option2": "40min",
+            "option3": "20*6/11min.past4",
+            "option4": "120*1/11min.past4",
+            "ans" : "120*1/11min.past4"
+        },
+        {
+            "question": "At what time between 5 and 6 'o' clock are the hands of a clock 3min apart?",
+            "figure": "no image",
+            "option1": "45min.past5",
+            "option2": "140min.past5",
+            "option3": "346*1/11min.past4",
+            "option4": "354*1/11min.past4",
+            "ans" : "346*1/11min.past4"
+        },
+        {
+            "question": "The minute hand of a clock overtakes the hour hand at intervals of 65minutes of the correct time.How much a day does the clock gain or lose?",
+            "figure": "no image",
+	    "option1": "450min",
+            "option2": "470min",
+            "option3": "440/43min",
+            "option4": "546min",
+             "ans" : "440/43min"
+        },
+        {
+            "question": "A watch which gains uniformly,is 6min.slow at 8 'o' clock in the morning Sunday and it is 6min.48sec.fast at 8p.m. on following Sunday.When was it correct?",
+            "figure": "no image",
+            "option1": "Sunday",
+            "option2": "Wednesday",
+            "option3": "Tuesday",
+            "option4": "Friday",
+            "ans" : "Wednesday"
+        },
+        {
+            "question": "A clock is set right at 6a.m. The clock loses 16minutes in 24hours.What will be the true time when the clock indicates 10p.m. on 4th day?",
+            "figure": "no image",
+            "option1": "12am",
+            "option2": "06am",
+            "option3": "11p.m",
+            "option4": "10p.m",
+            "ans" : "11 p.m"
+        }
+    ]
+}
